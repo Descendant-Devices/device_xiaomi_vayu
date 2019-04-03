@@ -7,5 +7,8 @@
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Include GSI keys
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/vayu/vayu-vendor.mk)
