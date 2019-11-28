@@ -764,7 +764,6 @@ vendor/firmware/ipa_uc.mdt|b8f10bbaf74f8d65ce0f9292ed91fdcf2cc7a52b
 
 # IRQ balance - from vayu
 vendor/bin/msm_irqbalance|bcc114819bd50bfbefe2dfcb9f815f9959cdad44
-vendor/etc/msm_irqbalance.conf|0141a3e34175f62a3ae1f0f44cca94cf7043f2de
 
 # Keymaster - from vayu
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|dd28418cf9fb70a8df08c6f0040a033fb76c1b2b
