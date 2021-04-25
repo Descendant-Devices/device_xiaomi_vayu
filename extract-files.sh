@@ -55,6 +55,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/etc/qdcm_calib_data_xiaomi_*)
+            sed -i "s/dcip3/srgb/" "${2}"
+            ;;
         vendor/lib64/hw/camera.qcom.so)
             "${PATCHELF}" --remove-needed "libMegviiFacepp-0.5.2.so" "${2}"
             "${PATCHELF}" --remove-needed "libmegface.so" "${2}"
