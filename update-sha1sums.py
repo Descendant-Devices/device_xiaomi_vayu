@@ -75,9 +75,8 @@ class Updater:
         self.write()
 
 
-for file in ['proprietary-files.txt', 'proprietary-files-vayu.txt']:
-    updater = Updater(file)
-    if len(sys.argv) == 2 and sys.argv[1] == '-c':
-        updater.cleanup()
-    else:
-        updater.update()
+updater = Updater('proprietary-files.txt')
+if len(sys.argv) == 2 and sys.argv[1] == '-c':
+    updater.cleanup()
+else:
+    updater.update()

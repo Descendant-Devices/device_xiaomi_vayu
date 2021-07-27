@@ -32,8 +32,6 @@ write_headers
 
 # The standard device blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
-echo "" >> "$PRODUCTMK"
-write_makefiles "${MY_DIR}/proprietary-files-vayu.txt" true
 
 # Finish
 write_footers
