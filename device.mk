@@ -11,11 +11,14 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msmnile
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
+# Runtime Resource Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlay \
+    FrameworksResOverlay \
+    SettingsOverlay \
+    SettingsProvidorOverlay \
+    SystemUIOverlay \
+    TelephonyOverlay \
     NotchBarKiller
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
