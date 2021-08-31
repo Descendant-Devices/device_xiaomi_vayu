@@ -9,12 +9,23 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-vayu
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+
+# Device uses high-density artwork where available
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -199,6 +210,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fingerprintextension@1.0.vendor
+
+PRODUCT_PACKAGES += \
+    libkeymaster_messages.vendor
 
 # FM
 PRODUCT_PACKAGES += \
