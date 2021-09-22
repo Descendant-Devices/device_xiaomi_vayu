@@ -11,6 +11,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msmnile
 
+# Descendant-Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-descendant
+
 # Runtime Resource Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 Descendant Open Sauce Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Ambient display shows. -->
+    <string name="ambient_display_category_triggers">"Когда показывать"</string>
+    <string name="doze_title">"Пробуждение экрана при уведомлениях"</string>
+    <string name="doze_summary">"Пробуждать экран при новых уведомлениях"</string>
+    <string name="doze_always_on_title">"Всегда показывать время и информацию"</string>
+    <string name="doze_always_on_summary">Быстро разряжается батарея</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления</string>
+    <string name="battery_saver_refresh_rate_summary">Используйте частоту обновления экрана 60 Гц для экономии энергии при включенной функции энергосбережения.</string>
+
+    <!-- Debugging developer settings: show refresh rate? [CHAR LIMIT=36] -->
+    <string name="show_refresh_rate">Показать частоту обновления</string>
+
+    <!-- Debugging developer settings: show refresh rate summary [CHAR LIMIT=58] -->
+    <string name="show_refresh_rate_summary">Показать текущую частоту обновления дисплея</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Индикатор заряда батареи</string>
+    <string name="battery_percent_summary">Настройка стилей значков и текста для индикатора заряда батареи в строке состояния</string>
+    <string name="status_bar_battery_style_title">Стиль индикатора батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Точечный круг</string>
+    <string name="status_bar_battery_style_filled_circle">Заполненный круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрытый</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Скрытый</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+
+</resources>

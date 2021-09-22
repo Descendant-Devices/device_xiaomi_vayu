@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 Descendant Open Sauce Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- Descendant Health-->
+    <string name="descendant_health_appname">Descendant Здоровье</string>
+    <string name="descendant_health_eyestrain_title">Предупреждение</string>
+    <string name="descendant_health_eyestrain_summary">Кажется, вы использовали телефон один час непрерывно.\nПодумайте о том, чтобы сделать перерыв, это может снизить усталость глаз.</string>
+    <string name="descendant_health_eyestrain_knowledge">https://en.wikipedia.org/wiki/Eye_strain</string>
+    <string name="descendant_health_eyestrain_info">О чрезмерном напряжении глаз</string>
+    <string name="descendant_health_eyestrain_nightlight">Настроить ночной режим</string>
+    <string name="descendant_health_sleep_title">Советник по сну</string>
+    <string name="descendant_health_sleep_summary">Похоже, у вас установлен будильник.\nЕсли ваш телефон мешает Вам уведомлениями, установите режим \"Не беспокоить\".</string>
+    <string name="descendant_health_sleep_dnd">Не беспокоить</string>
+
+</resources>

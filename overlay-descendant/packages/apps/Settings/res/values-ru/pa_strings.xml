@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2021 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App Lock -->
+    <string name="applock_title">Блокировка приложений</string>
+    <string name="applock_locked">Закрыто</string>
+    <string name="applock_unlocked">Открыто</string>
+    <string name="applock_locked_apps">Закрыто приложений</string>
+    <string name="applock_unlocked_apps">Открыто приложений</string>
+    <string name="applock_show_only_on_wake">Аутентифицируйтесь только один раз</string>
+    <string name="applock_show_only_on_wake_on_summary">После аутентификации приложение остается разблокированным до тех пор, пока экран не выключится</string>
+    <string name="applock_show_only_on_wake_off_summary">После аутентификации приложение остается разблокированным в течение 15 секунд после выхода</string>
+    <string name="applock_notification_info">Вы можете отображать/скрывать содержимое уведомлений для каждого приложения, нажав на значок уведомления, отображаемый в настройках каждого заблокированного приложения</string>
+    <string name="applock_show_notif">Отображение содержимого уведомлений</string>
+    <string name="applock_hide_notif">Скрытие содержимого уведомлений</string>
+    <string name="applock_setup">Настройка блокировки приложений</string>
+    <string name="applock_overlay_summary">Эта функция недоступна, так как это приложение заблокировано</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 приложение заблокировано</item>
+        <item quantity="other">%d приложений заблокировано</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+
+
+</resources>
